@@ -56,6 +56,21 @@ I developed a text-based chatbot that can hold conversations with users. I utili
 - User input handling
 - Basic responses and interactions
 
+### 4. File Automation
+
+**Description:**  
+Python scripts to automate it. This could include taskslike file organization, data cleaning, or systemmaintenance.
+
+**Technologies Used:**
+- Python
+- NLTK / spaCy
+
+**Features:**
+-Automation of files
+-Handle the files
+-Maintain the files
+  
+
 ## Project Completion
 
 I have completed all three tasks within the assigned time and have uploaded the source code for each project on this GitHub repository.
