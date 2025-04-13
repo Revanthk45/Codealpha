@@ -1,0 +1,99 @@
+Stock Portfolio Tracker
+Overview
+
+The Stock Portfolio Tracker is a Python-based application that allows users to track their stock investments. It enables users to add stocks to their portfolio, remove them, and view real-time stock prices along with portfolio performance.
+
+The tracker fetches current stock prices using the Alpha Vantage API and calculates portfolio value, gains/losses, and performance.
+Features
+
+    Add Stock: Add stocks to your portfolio with the option to input purchase price or use the current market price.
+
+    Remove Stock: Remove stocks from your portfolio.
+
+    Update Stock Prices: Update the current price of all stocks in your portfolio.
+
+    View Portfolio: Display a summary of the portfolio including stock values, gains/losses, and overall portfolio performance.
+
+    Persistent Data: The portfolio data is saved in a portfolio.json file, allowing data to persist between program runs.
+
+Requirements
+
+    Python 3.x
+
+    Requests library (Install with pip install requests)
+
+    Alpha Vantage API Key (free account available at Alpha Vantage)
+
+Setup
+
+    Clone this repository to your local machine:
+
+git clone https://github.com/yourusername/stock-portfolio-tracker.git
+cd stock-portfolio-tracker
+
+Install required dependencies:
+
+    pip install requests
+
+    Get your Alpha Vantage API Key by signing up for a free account at Alpha Vantage.
+
+    Open the Stock Portfolio Tracker.py file and replace the placeholder API_KEY = 'YOUR_ALPHA_VANTAGE_API_KEY' with your actual API key.
+
+Usage
+
+To start the Stock Portfolio Tracker, run the following command:
+
+python Stock Portfolio Tracker.py
+
+Menu Options
+
+    Add Stock: Add a stock to your portfolio by entering the stock symbol, number of shares, and purchase price (optional).
+
+    Remove Stock: Remove a stock from your portfolio by entering the stock symbol.
+
+    Update Prices: Update the current prices of all stocks in your portfolio.
+
+    View Portfolio: Display a summary of your portfolio’s value, individual stock performance, and overall gains/losses.
+
+    Exit: Exit the application.
+
+Example
+
+Stock Portfolio Tracker
+1. Add Stock
+2. Remove Stock
+3. Update Prices
+4. View Portfolio
+5. Exit
+Enter your choice (1-5): 1
+Enter stock symbol: AAPL
+Enter number of shares: 10
+Enter purchase price (leave blank for current price): 
+Added 10 shares of AAPL to your portfolio.
+
+Stock Portfolio Tracker
+1. Add Stock
+2. Remove Stock
+3. Update Prices
+4. View Portfolio
+5. Exit
+Enter your choice (1-5): 4
+Portfolio Summary:
+--------------------------------------------------
+Symbol    Shares       Avg Cost        Current          Value            Gain/Loss
+--------------------------------------------------
+AAPL          10.00       145.50            160.00        1600.00       145.00 (9.97%)
+--------------------------------------------------
+Total Portfolio Value: $1600.00
+Total Investment: $1455.00
+Total Gain/Loss: $145.00 (9.97%)
+--------------------------------------------------
+
+License
+
+This project is open source and available under the MIT License.
+Author
+
+    Revanth sai
+
+    Date Created: April 13, 2025
